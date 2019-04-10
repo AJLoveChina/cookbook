@@ -19,7 +19,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        // displayAllHeaders: true, // 默认值：false
+       displayAllHeaders: false, // 默认值：false
         repo: "https://github.com/AJLoveChina/cookbook",
         repoLabel: 'Github',
         // 假如文档不是放在仓库的根目录下：
@@ -34,6 +34,7 @@ module.exports = {
         sidebar: [
             ["/", "首页"],
             ['/xhscd/', '西红柿炒蛋'],
+            ['/mpdf/', '麻婆豆腐'],
         ]
     }
 };
