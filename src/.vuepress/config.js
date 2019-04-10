@@ -19,7 +19,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        displayAllHeaders: true, // 默认值：false
+        // displayAllHeaders: true, // 默认值：false
         repo: "https://github.com/AJLoveChina/cookbook",
         repoLabel: 'Github',
         // 假如文档不是放在仓库的根目录下：
